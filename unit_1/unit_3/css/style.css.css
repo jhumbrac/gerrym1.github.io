@@ -1,9 +1,10 @@
 body
-h1 {color:#AE01E8; }
-p {color:#5C132F; }
+h1 {color:#4B0082; }
+p {color:#800000; }
 ul
 li
 img
-#slogan-italicized
+#slogan-italicized;
 {background-image: <a href="http://imgur.com/RJLn5FN"><img src="http://i.imgur.com/RJLn5FN.jpg?2" title="source: imgur.com" /></a>}
-text-align
+text-align: center;
+p{font-size: medium;}
