@@ -6,6 +6,10 @@ p {
 
 }
 p {
-	border: 1px solid black;
+	border: 2px solid green;
 }
 body {background-image: <a href="http://imgur.com/RJLn5FN"><img src="http://i.imgur.com/RJLn5FN.jpg?2" title="source: imgur.com"; /></a>}
+body {border: 2px solid blue }
+p {
+	background-color: #3FFF7A
+}
