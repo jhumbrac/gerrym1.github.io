@@ -1,15 +1,42 @@
 h1 {
 	text-align: center;
 }
+h1{font-size: 50px}
+h2{
+	text-align: center;
+}
+h2{
+	color: red;
+}
+h2{
+	font-size: 40px
+}
 p {
 	font-style: italic;
 
 }
+h1 {color:#182182}
+img{border:15px solid green;}
+img{box-sizing: 50px}
+img{
+	display:block ;
+	margin: auto;
+	width: 30%
+}
 p {
 	border: 2px solid green;
 }
-body {background-image: <a href="http://imgur.com/RJLn5FN"><img src="http://i.imgur.com/RJLn5FN.jpg?2" title="source: imgur.com"; /></a>}
-body {border: 2px solid blue }
+body {
+	background-color:#FFBA9A 
+ }
+body {border: 15px solid blue }
 p {
-	background-color: #3FFF7A
+	background-color: #CCE8D0}
+p{margin: auto;}
+ul{color: red;}
+ul{font-size: 30px}
+p{
+	display: block;
+	margin: auto;
+	width: 80%
 }
