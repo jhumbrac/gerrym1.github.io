@@ -6,14 +6,14 @@ h1{font-size: 50px;
 font-family:Francois One;}
 h1
 h2{
-	text-align: center;
-}
-h2{
 	color: red;
 }
 h2{
-	font-size: 40px
+	font-size: 40px;
+	text-align: center;
+	color: red
 }
+
 p {
 	font-style: italic;
 	font-size: 20px;
@@ -23,7 +23,7 @@ p {
 
 }
 h1 {color:#182182}
-img{border:15px solid green;}
+img{border:15px solid blue;}
 img{box-sizing: 50px}
 img{
 	display:block ;
@@ -39,6 +39,7 @@ p {
 p{margin: auto;}
 ul{color: red;}
 ul{font-size: 30px}
+ul{text-align: center;}
 p{
 	
 	margin: auto;
