@@ -39,8 +39,8 @@ p {
 p{margin: auto;}
 ul{color: red;}
 ul{font-size: 30px}
-ul{text-align: center;}
-p{
-}
- intro { 
-	background-color: #FFED74; } 
+ul{text-align: center;} 
+header{background-color: #FFED74;
+ }
+section{background-color: #E89C6C;
+ }
