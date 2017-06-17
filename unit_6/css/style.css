@@ -1,71 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Francois+One|Montserrat');
-* { margin:0; padding:0; box-sizing:border-box; }
-body {
-/* base typography */
-color:#333;
-font-family:;
-font-size:16px;
-font-weight:400;
-line-height:1.3;
+body{
+	background-color: #40FFE5;
 }
-section {
-padding:5em 0;
+#navigator { background-color: #aaaaaa;
+	font-family: Arial,sans-serif;
+	width: 100px;
 }
-img {width:300px;} /* this needs to be deleted */
-
-
-
-
-h1 {
-	text-align: left;
-font-size: 40px;
-font-family:Francois One;
-color:#182182;
-line-height:1.5em;	
-}
-
-
-h2{
- color: red;
-	font-size: 40px;
-	text-align: center;
-	float: left;
-	line-height: 2em;
-}
-
-
-p {
-	font-style: italic;
+#logo{
 	font-size: 20px;
-	margin:1.5em;
-	line-height: 2em;
-	font-family:'Montserrat', sans-serif;
-	background-color: #CCE8D0;
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+
+}
+img{ width: 40%;
+	margin-left: 30%;
+	border-style: inset;
+	border-width: 10px;
+	border-color: #FFF37B;
+
+
+
+}
+h2{
+	color: black;
+}
+#intro{
+	font-size: 18px;
+	font-style: Arial;
+	line-height: 1.5em;
+	border-style: inset;
+	border-color: #FFF37B;
+	border width: 25px;
 	padding: 5px;
-	border: 2px solid black;	 
+	margin-top: 15px;
+	background-color: #F4F4F4;
+
+}
+#services{
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+	line-height: 1.5em;
+}
+#contact{
+	font-size: 20px:;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.5em;
+
+
+}
+a{
+	background-color: #191BFF;
+	color: red;
+	text-decoration: none;
+	display: block;
+	padding: 20px;
+
+	
+	
 }
 
-img{border:5px solid blue;
-float: left;
-margin: 5px;
-}
-
-body {background-color: #4CA8B1;
-border: 15px solid blue 	 
- }
-ol{color: red;
-text-align: center;
-font-size: 40px;
-display: ruby-base;
-border:2px solid black;
-margin-right: 30%;
-margin-left: 30%;
-background-color: #0D88FF;
-padding:5em;
-}
-
-
-
- 
-
- 
+a:hover
+{background-color: #aaaaaa;}
