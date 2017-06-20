@@ -5,6 +5,8 @@ body{
 #navigator { background-color: #aaaaaa;
 	font-family: Arial,sans-serif;
 	width: 100px;
+
+
 }
 #logo{
 	font-size: 20px;
@@ -16,8 +18,9 @@ body{
 }
 img{ width: 40%;
 	margin-left: 30%;
+	margin-right: 30%;
 	border-style: inset;
-	border-width: 10px;
+	border-width: 25px;
 	border-color: #FFF37B;
 	border-radius: 20px;
 
@@ -28,16 +31,19 @@ h2{
 	color: black;
 }
 #intro{
-	font-size: 18px;
+	font-size: 20px;
 	font-style: Arial;
 	line-height: 1.5em;
 	border-style: inset;
 	border-color: #FFF37B;
-	border width: 25px;
+	border-width:  25px;
 	border-radius: 25px;
-	padding: 10px;
+	padding: 5px;
+	margin-bottom: 20px;
 	margin-top: 15px;
 	background-color: #F4F4F4;
+	float: left;
+	width: 62%;
 
 }
 
@@ -52,26 +58,41 @@ a{
 a:hover
 {background-color: #aaaaaa;}
 
-#two_column{
-	background-color: #FFB7CF;
-	border: 1px black solid;
+
+#contact{
+	background-color: #F4F4F4;
 	padding: 20px;
+	border-style: inset;
+	border-color: #FFF37B;
+	border-radius: 25px;
+	border-width: 25px;
+	text-align: center;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: Arial;
+
+	
 }
 
-#left{
-	background-color: #E582A2;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 32%;
-}
-
-#right{
-	background-color: #E55B88;
-	border: 1px black solid;
-	padding: 20px;
+#services{
+	background-color: #F4F4F4;
+	border-radius: 25px;
+	padding: 10px;
+	color: red;
+	margin-top: 15px;
+	text-align:center;
+	border-color:#FFF37B;
+	border-style: inset;
+	border-width: 25px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
 	float: right;
-	width: 62%;
+	line-height: 1.5em;
+
 }
 .clearfix:after {
 	visibility: hidden;
