@@ -21,8 +21,8 @@ body{
 	margin-left:25%;
 	margin-right: 5%;
 	margin-top: 1%;
-	width: 500px;
-	height: 300px;
+	width: 40%;
+	height: 50%;
 	background-repeat: no-repeat;
 	background-image: url("https://thumbs.dreamstime.com/b/laptop-tablet-phone-85405012.jpg");
 	background-blend-mode: 
@@ -67,6 +67,7 @@ div{text-align: center;
 	font-weight: bold;
 	font-size: 25px;
 	font-style: Arial;
+	width: 30%;
 	
 
 
@@ -106,7 +107,7 @@ form{
 	line-height: 1.5em;
 	font-size: 20px;
 	padding: 10px;
-	width: 160px;
+	width: 25%;
 	background-color: #F4F4F4;
 	text-decoration: underline;
 }
@@ -128,4 +129,8 @@ p{
 	content: "";
 	clear: both;
 	height: 0;
+}
+@media only screen and (max-width: 674px)
+{.form{ 
+width: auto; }
 }
