@@ -8,12 +8,11 @@ body{
 
 } 
 a{
-    
+   
 	font-style: italic;
-	font-size: 2.5em;
-	margin-left: 40%;
+	font-size: 1em;
+
 	
-	margin-right: 40%;
 
 	
 
@@ -91,7 +90,7 @@ div{text-align: center;
 	font-weight: bold;
 	font-size: 1.75em;
 	font-style: Arial;
-	width: 30%;
+	width: 40%;
 	
 
 
@@ -157,5 +156,9 @@ p{
 }
 @media only screen and (max-width: 690px)
 {.form{ 
+width: auto; }
+}
+@media only screen and (max-width: 690px)
+{.contact{ 
 width: auto; }
 }
