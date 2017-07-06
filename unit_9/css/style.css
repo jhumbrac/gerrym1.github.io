@@ -11,12 +11,6 @@ a{
    
 	font-style: italic;
 	font-size: 1em;
-
-	
-
-	
-
-	
 	width: 15%;
 	padding: .5em;
 	text-align: center;
@@ -67,6 +61,8 @@ a{
 div{text-align: center;
 	font-size:2em;
 	line-height: 1.5em;
+	display: block;
+
 }
 
 
@@ -83,14 +79,15 @@ div{text-align: center;
 	padding: 20px;
 	line-height: 1.5em;
 	text-align: center;
-	margin-left: 30%;
 	margin-right: 30%;
+	margin-left: 30%;
 	margin-top: 10%;
 	margin-bottom: 5%;
 	font-weight: bold;
-	font-size: 1.75em;
+	font-size: 1.5em;
 	font-style: Arial;
-	width: 40%;
+	width: auto;
+	display: inline-block;
 	
 
 
@@ -123,14 +120,13 @@ form{
 	border-radius: 25px;
 	border-width: 10px;
 	border-color: #C4D89D;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 2%;
+	margin-left: 30%;
+	margin-right: 30%;
 	text-align: left;
 	line-height: 1.5em;
 	font-size: 1.5em;
 	padding: 10px;
-	width: 25%;
+	width: auto;
 	background-color: #F4F4F4;
 	text-decoration: underline;
 }
@@ -140,7 +136,7 @@ input{
 img{
 	border:solid;
 	border-radius: 20px;
-	width: 30%;
+	width:30%;
 	
 }
 p{
@@ -154,11 +150,15 @@ p{
 	clear: both;
 	height: 0;
 }
-@media only screen and (max-width: 690px)
+@media only screen and (max-width: 768px)
 {.form{ 
-width: auto; }
+width: 100%; }
 }
-@media only screen and (max-width: 690px)
+@media only screen and (max-width: 768px)
 {.contact{ 
-width: auto; }
+width: 100%; }
+}
+@media only screen and (max-width: 768px)
+{div}{
+	width: 100%;
 }
