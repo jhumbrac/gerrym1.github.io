@@ -1,8 +1,48 @@
 *{margin: 0;padding: 0;box-sizing: border-box;}
 
 body{
-
+font-size: 16px;
 	background-color:#A6A49A;
+	border: solid;
 
 }
-header{color:#FFFFFF;}
+header{color:#21E89F;
+	margin-top: 2%;
+	margin-bottom: 5%;
+	display: block;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 2.5em;
+	width: auto;
+    
+}
+#desktop{
+    width: 60%;
+	margin-top: 5%;
+	margin-right: 20%;
+	margin-left: 20%;
+	border: dashed;
+}
+
+p{
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 96%;
+}
+#intro{ font-size: 1.5em;
+	line-height: 1.5em;
+	font-weight: bold;
+
+
+
+}
+p{ font-size: 1.2em;
+	line-height: 1.2em;
+}
+#logo{font-weight: bold;
+	font-size: 1.2em;
+	width: auto;
+	margin-top: 25px;
+
+}
