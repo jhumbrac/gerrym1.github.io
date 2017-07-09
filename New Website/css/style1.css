@@ -2,17 +2,19 @@
 
 body{
 font-size: 16px;
-	background-color:#3C989E;
+background-color: #000000;
 	border: solid;
-
+background-repeat: no-repeat;
+background-size: 100%;
 }
-header{color:#046E27;
+header{color:#FFF6F0;
 	margin-top: 2%;
 	margin-bottom: 5%;
 	display: block;
 	text-align: center;
 	font-size: 2em;
 	font-weight: bold;
+	font-family: 'Parisienne', cursive;
 	line-height: 2.5em;
 	width: auto;
 	padding: 2em;
@@ -29,6 +31,7 @@ header{color:#046E27;
 #Me{
 	border-radius: 20px;
 	width: 20%;
+	height: 15%;
 }
 
 p{
@@ -36,10 +39,12 @@ p{
 	margin-right: 2%;
 	width: 96%;
 	padding: 2em;
+	color: #FFF6F0;
 }
 #intro{ font-size: 1.5em;
 	line-height: 1.5em;
 	font-weight: bold;
+	font-family: 'Arapey', serif;
 	padding-bottom: 2em;
 
 
@@ -47,7 +52,7 @@ p{
 }
 p{ font-size: 1.2em;
 	line-height: 1.2em;
-	font-style: Arial;
+	font-family: 'Arapey',serif;
 }
 #logo{font-weight: bold;
 	font-size: 1.2em;
@@ -56,12 +61,15 @@ p{ font-size: 1.2em;
 line-height: 2em;
 }
 #services{
+color: #FFF6F0;
 font-size: 1.5em;
 text-align: center;	
 width: auto;
 line-height: 1.5em;
 padding: 2em;
 text-decoration: underline;
+font-family: 'Anton', sans-serif;
+
 }
 address{
 	font-size: 1.5em;
@@ -69,5 +77,6 @@ address{
 	padding: 2em;
 	line-height: 1.5em;
 	width: auto;
+	color: #FFF6F0;
 }	
 
